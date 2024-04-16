@@ -1,5 +1,7 @@
 bananas
 peras
 manzanas
-uvas
 melon
+sandia
+papas
+tomates
