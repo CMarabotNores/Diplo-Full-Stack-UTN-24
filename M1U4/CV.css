@@ -1,0 +1,33 @@
+body {
+    background-color: darkgray;
+}
+
+nav {
+    text-align: right;
+}
+
+aside {
+    background-color: rgba(1, 107, 1, 0.973);
+}
+
+h1 {
+    font-family: sans-serif;
+    color: crimson;
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+li {
+    font-family: sans-serif;
+}
