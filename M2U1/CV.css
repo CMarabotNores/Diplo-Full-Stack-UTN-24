@@ -1,47 +1,99 @@
-body {
-    background-color: darkgray;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*, 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    gap: 1rem;
+    filter: drop-shadow(0 0 0.4rem black);
+}
+
+.personal, 
+.tecnologias, 
+.idiomas{
+    padding: 1rem;
+    line-height: 2;
+}
+
+.izquierda,
+.experiencia, 
+.educacion,
+.referencias{
+    background-color: #fff;
+}
+
+.izquierda-imagen{
+    position: relative;
+}
+
+.izquierda-imagen img{
     width: 100%;
-    margin: 0 auto;
 }
 
-nav {
-    text-align: right;
-    padding: 20px;
+.izquierda-imagen h2{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1rem;
+    color: green;
 }
 
-main {
-    padding: 20px;
+.experiencia,
+.educacion,
+.referencias{
+    line-height: 2;
+    padding: 2rem;
 }
 
-aside {
-    background-color: rgba(1, 107, 1, 0.973);
-    padding: 20px;
-    width: 100%;
-    margin: 0 auto;
+.experiencia ul{
+    margin: 2rem 0;
 }
 
-footer {
-    padding: 20px;
+.fecha{
+    color: green;
+}
+.actual{
+    background-color: green;
+    color: #fff;
+    padding: 0.4rem;
+    border-radius: 3px;
 }
 
-h1 {
-    font-family: sans-serif;
-    color: crimson;
+.educacion ul{
+    margin: 2rem 0;
+}
+
+.referencias ul{
+    margin: 2rem 0;
+}
+
+i{
+    color: green;
+}
+
+footer{
+    background-color: green;
+    padding: 2rem 0;
     text-align: center;
+    line-height: 1.5;
+    color: #fff;
 }
 
-h2 {
-    font-family: sans-serif;
-}
-
-h3 {
-    font-family: sans-serif;
-}
-
-p {
-    font-family: sans-serif;
-}
-
-li {
-    font-family: sans-serif;
+footer i{
+    color: #fff;
 }
